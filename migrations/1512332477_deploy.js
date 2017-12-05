@@ -19,10 +19,10 @@ const duration = {
 
 
 const BigNumber = web3.BigNumber;
-// 1 ether --> 1200 TestToken 
-const rate = 1/1200;
+// 1 wei --> 1200 TestToken 
+const rate = 1200;
 // start one week from now
-const startTime = latestTime() + duration.weeks(1);
+const startTime = latestTime();
 // run for one week
 const endTime = startTime + duration.weeks(1);
 
