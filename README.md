@@ -13,6 +13,8 @@ This is a sample codebase to learn how to create an Ethereum ICO in Solidity. It
 1. Run `truffle develop` in the background
 2. Run `truffle test --network test`
 
+![Image of passing tests](./assets/test.jpeg)
+
 ## Deployment to Kovan network
 
 1. Run an Ethereum client in the background on the Kovan chain
