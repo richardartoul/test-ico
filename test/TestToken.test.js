@@ -8,6 +8,18 @@ contract('Mintable', function (accounts) {
     token = await MintableToken.new();
   });
 
+  it('should be called TestToken', async function () {
+    assert.equal(await token.name(), 'TestToken');
+  });
+
+  it('should have 💩 as the symbol', async function () {
+    assert.equal(await token.symbol(), '💩');
+  });
+
+  it('should have 18 decimals', async function () {
+    assert.equal(await token.decimals(), '18');
+  });
+
   it('should start with a totalSupply of 0', async function () {
     let totalSupply = await token.totalSupply();
 
