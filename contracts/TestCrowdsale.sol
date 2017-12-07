@@ -7,7 +7,7 @@ import './TestToken.sol';
 
 contract TestCrowdsale is Crowdsale {
   // Call Crowdsale constructor in our constructor using modifier syntax
-  function TestCrowdsale(uint256 _startTime, uint256 _endTime, uint256 _rate, address _wallet)
+  function TestCrowdsale(uint256 _startTime, uint256 _endTime, uint256 _rate, address _wallet) public
     Crowdsale(_startTime, _endTime, _rate, _wallet)
   {
 
