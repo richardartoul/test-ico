@@ -1,6 +1,6 @@
 # Test ICO
 
-This is a sample codebase to learn how to create an Ethereum ICO in Solidity. It relies primarily on the Zeppelin-Solidity library to do the heavy lifting.
+This is a sample codebase to learn how to create an Ethereum ICO in Solidity. It relies primarily on the Zeppelin-Solidity library to do the heavy lifting. Similarly, the test suite is mostly the same as the tests for the inherited contracts in Zeppelin since we make very few modifications to them.
 
 ## Installation
 
